@@ -16,7 +16,11 @@ class BuscaCell: UITableViewCell {
 	override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
 		super.init(style: style, reuseIdentifier: reuseIdentifier)
 		
+		let stackView = UIStackView(arrangedSubviews: [iconeImageView, tituloLabel, empresaLabel])
+		stackView.spacing = 12
 		
+		addSubview(stackView)
+		stackView.preencherSuperview()
 	}
 	
 	required init?(coder: NSCoder) {

@@ -13,7 +13,7 @@ class BuscaVC: UITableViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
+		tableView.register(BuscaCell.self, forCellReuseIdentifier: cellId)
 	}
 }
 
@@ -26,7 +26,7 @@ extension BuscaVC {
 		return 5
 	}
 	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
+		let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as! BuscaCell
 		
 		return cell
 	}
