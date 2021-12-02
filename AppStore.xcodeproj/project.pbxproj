@@ -18,6 +18,7 @@
 		C5A999A02759457D000C63E3 /* BuscaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A9999F2759457D000C63E3 /* BuscaCell.swift */; };
 		C5A999A327594678000C63E3 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A999A227594678000C63E3 /* UIView.swift */; };
 		C5A999A727594CEF000C63E3 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A999A627594CEF000C63E3 /* UIImageView.swift */; };
+		C5A999A92759572D000C63E3 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A999A82759572D000C63E3 /* UILabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		C5A9999F2759457D000C63E3 /* BuscaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaCell.swift; sourceTree = "<group>"; };
 		C5A999A227594678000C63E3 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		C5A999A627594CEF000C63E3 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		C5A999A82759572D000C63E3 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				C5A999A227594678000C63E3 /* UIView.swift */,
 				C5A999A627594CEF000C63E3 /* UIImageView.swift */,
+				C5A999A82759572D000C63E3 /* UILabel.swift */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				C5A999A02759457D000C63E3 /* BuscaCell.swift in Sources */,
 				C50AF0FA27515B80008D0BED /* ViewController.swift in Sources */,
 				C5A031FB27555E62003C56FA /* BuscaVC.swift in Sources */,
+				C5A999A92759572D000C63E3 /* UILabel.swift in Sources */,
 				C5A999A327594678000C63E3 /* UIView.swift in Sources */,
 				C50AF0F627515B80008D0BED /* AppDelegate.swift in Sources */,
 				C5A031F82753F275003C56FA /* BaseTabBarVC.swift in Sources */,
