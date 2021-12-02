@@ -14,6 +14,10 @@
 		C50AF0FF27515B82008D0BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50AF0FE27515B82008D0BED /* Assets.xcassets */; };
 		C50AF10227515B82008D0BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50AF10027515B82008D0BED /* LaunchScreen.storyboard */; };
 		C5A031F82753F275003C56FA /* BaseTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A031F72753F275003C56FA /* BaseTabBarVC.swift */; };
+		C5A031FB27555E62003C56FA /* BuscaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A031FA27555E61003C56FA /* BuscaVC.swift */; };
+		C5A999A02759457D000C63E3 /* BuscaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A9999F2759457D000C63E3 /* BuscaCell.swift */; };
+		C5A999A327594678000C63E3 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A999A227594678000C63E3 /* UIView.swift */; };
+		C5A999A727594CEF000C63E3 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A999A627594CEF000C63E3 /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		C50AF10127515B82008D0BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C50AF10327515B82008D0BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5A031F72753F275003C56FA /* BaseTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarVC.swift; sourceTree = "<group>"; };
+		C5A031FA27555E61003C56FA /* BuscaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaVC.swift; sourceTree = "<group>"; };
+		C5A9999F2759457D000C63E3 /* BuscaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscaCell.swift; sourceTree = "<group>"; };
+		C5A999A227594678000C63E3 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		C5A999A627594CEF000C63E3 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 		C50AF0F427515B80008D0BED /* AppStore */ = {
 			isa = PBXGroup;
 			children = (
+				C5A999A127594661000C63E3 /* Lib */,
+				C5A9999D27594563000C63E3 /* View */,
 				C5A031F62753F258003C56FA /* Controller */,
 				C50AF0F527515B80008D0BED /* AppDelegate.swift */,
 				C50AF0F727515B80008D0BED /* SceneDelegate.swift */,
@@ -73,9 +83,43 @@
 		C5A031F62753F258003C56FA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C5A031F9275557C2003C56FA /* Busca */,
 				C5A031F72753F275003C56FA /* BaseTabBarVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C5A031F9275557C2003C56FA /* Busca */ = {
+			isa = PBXGroup;
+			children = (
+				C5A031FA27555E61003C56FA /* BuscaVC.swift */,
+			);
+			path = Busca;
+			sourceTree = "<group>";
+		};
+		C5A9999D27594563000C63E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5A9999E2759456D000C63E3 /* Busca */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5A9999E2759456D000C63E3 /* Busca */ = {
+			isa = PBXGroup;
+			children = (
+				C5A9999F2759457D000C63E3 /* BuscaCell.swift */,
+			);
+			path = Busca;
+			sourceTree = "<group>";
+		};
+		C5A999A127594661000C63E3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C5A999A227594678000C63E3 /* UIView.swift */,
+				C5A999A627594CEF000C63E3 /* UIImageView.swift */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A999A727594CEF000C63E3 /* UIImageView.swift in Sources */,
+				C5A999A02759457D000C63E3 /* BuscaCell.swift in Sources */,
 				C50AF0FA27515B80008D0BED /* ViewController.swift in Sources */,
+				C5A031FB27555E62003C56FA /* BuscaVC.swift in Sources */,
+				C5A999A327594678000C63E3 /* UIView.swift in Sources */,
 				C50AF0F627515B80008D0BED /* AppDelegate.swift in Sources */,
 				C5A031F82753F275003C56FA /* BaseTabBarVC.swift in Sources */,
 				C50AF0F827515B80008D0BED /* SceneDelegate.swift in Sources */,
